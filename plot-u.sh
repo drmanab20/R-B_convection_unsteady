@@ -2,8 +2,9 @@
 #    set terminal postscript eps color enhanced
 #    set output "OF_vs_EXPT_T$i.eps"
     set xlabel "u"
-    set ylabel "Channel width, x / [m]"
+    set ylabel "Channel height y"
     set grid
+    set title "unsteady-state solution Ra=10e5"
     set key left top
     set size 0.6, 0.6
     set yrange [0:1]

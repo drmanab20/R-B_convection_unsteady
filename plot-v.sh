@@ -1,9 +1,10 @@
 #!/bin/sh
 #    set terminal postscript eps color enhanced
 #    set output "OF_vs_EXPT_T$i.eps"
-    set xlabel "Channel width, x / [m]"
+    set xlabel "Channel width, x"
     set ylabel "v"
     set grid
+    set title "unsteady-state solution Ra=10e5"
     set key left top
     set size 0.6, 0.6
     set xrange [0:1]
